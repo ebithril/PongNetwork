@@ -1,0 +1,13 @@
+#pragma once
+
+enum class eMessageType : char
+{
+	PING = 0,
+	CONNECT,
+	DISCONNECT,
+	MESSAGE,
+	CONNECT_CALLBACK,
+	PING_CALLBACK,
+	DISCONNECT_CALLBACK,
+	BROKEN,
+};

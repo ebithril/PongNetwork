@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="TSharedBall.h" />
+    <ClInclude Include="CommonErrorHandling.h">
+      <Filter>NetworkIncludes</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonNetworkIncludes.h">
+      <Filter>NetworkIncludes</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkDefines.h">
+      <Filter>NetworkIncludes</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageType.h">
+      <Filter>NetworkIncludes</Filter>
+    </ClInclude>
+    <ClInclude Include="SerializeHelper.h">
+      <Filter>Message</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessage.h">
+      <Filter>Message\NetMessage\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageChatMessage.h">
+      <Filter>Message\NetMessage\ChatMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageConnectCallbackMessage.h">
+      <Filter>Message\NetMessage\Connect\ConnnectCallback</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageConnectMessage.h">
+      <Filter>Message\NetMessage\Connect\ConnectMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageDisconnectCallbackMessage.h">
+      <Filter>Message\NetMessage\Disconnect\DisconnectCallback</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageDisconnectMessage.h">
+      <Filter>Message\NetMessage\Disconnect\DisconnectMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessagePingCallbackMessage.h">
+      <Filter>Message\NetMessage\Ping\PingCallback</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessagePingMessage.h">
+      <Filter>Message\NetMessage\Ping\PingMessage</Filter>
+    </ClInclude>
+    <ClInclude Include="NetMessageManager.h">
+      <Filter>Message\NetMessage\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TSharedBall.cpp" />
+    <ClCompile Include="NetMessage.cpp">
+      <Filter>Message\NetMessage\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessageChatMessage.cpp">
+      <Filter>Message\NetMessage\ChatMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessageConnectCallbackMessage.cpp">
+      <Filter>Message\NetMessage\Connect\ConnnectCallback</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessageConnectMessage.cpp">
+      <Filter>Message\NetMessage\Connect\ConnectMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessageDisconnectCallbackMessage.cpp">
+      <Filter>Message\NetMessage\Disconnect\DisconnectCallback</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessageDisconnectMessage.cpp">
+      <Filter>Message\NetMessage\Disconnect\DisconnectMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessagePingCallbackMessage.cpp">
+      <Filter>Message\NetMessage\Ping\PingCallback</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessagePingMessage.cpp">
+      <Filter>Message\NetMessage\Ping\PingMessage</Filter>
+    </ClCompile>
+    <ClCompile Include="NetMessageManager.cpp">
+      <Filter>Message\NetMessage\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NetworkIncludes">
+      <UniqueIdentifier>{f6427b12-4a14-48f5-a4c9-e4d2320322ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message">
+      <UniqueIdentifier>{7d8c978b-c8a8-4424-908f-d1568c733aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage">
+      <UniqueIdentifier>{2c634dcf-6c66-4679-a601-9ed6a4b583ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Base">
+      <UniqueIdentifier>{dfb05615-a415-4d4b-9e46-448444f76de8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\ChatMessage">
+      <UniqueIdentifier>{48179316-b07a-4e87-b657-9b52c0c97022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Ping">
+      <UniqueIdentifier>{da7d833c-daba-4212-93a0-faefcfbfd4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Ping\PingMessage">
+      <UniqueIdentifier>{01e29bb3-3fcd-4846-a94c-62b318715df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Ping\PingCallback">
+      <UniqueIdentifier>{2c95c471-839e-4742-bd47-e8aa3e9ea281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Connect">
+      <UniqueIdentifier>{f808c297-14fb-4905-b152-85f0d2714f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Connect\ConnectMessage">
+      <UniqueIdentifier>{6c64d83f-ba91-4768-8909-98fc390c7e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Connect\ConnnectCallback">
+      <UniqueIdentifier>{1fb23e1d-63a7-4bf3-bb0c-96d5d5d98451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Disconnect">
+      <UniqueIdentifier>{11c29716-dc98-407d-9ccb-b583746cf207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Disconnect\DisconnectMessage">
+      <UniqueIdentifier>{5bf7ad83-e88f-40fe-94e5-3c2963c43562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Disconnect\DisconnectCallback">
+      <UniqueIdentifier>{ed52e846-c3ac-43a2-9301-7c5a46a7992e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Message\NetMessage\Manager">
+      <UniqueIdentifier>{b1046855-e767-439c-96e6-033e5e7dfd0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{f2f26817-aac2-4961-8b22-a25c80b47a60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
