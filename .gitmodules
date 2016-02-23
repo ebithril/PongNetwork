@@ -1,0 +1,3 @@
+[submodule "Source/CommonUtilities"]
+	path = Source/CommonUtilities
+	url = https://github.com/ebithril/CommonUtilities.git
